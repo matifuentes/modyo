@@ -1,0 +1,43 @@
+.game-card {
+  aspect-ratio: 1/1;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.game-card:hover { 
+  transform: scale(1.1);
+}
+
+.react-card-flip {
+  height: 100%;
+}
+
+.game-card__back, .game-card__front {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.game-card__back {
+  align-items: center;
+  background-color: rebeccapurple;
+  color: white;
+  display: flex;
+  font-size: 9vw;
+  justify-content: center;
+}
+
+.game-card__front {
+  align-items: center;
+  background-color: aquamarine;
+  display: flex;
+}
+
+.game-card__img--cover {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}

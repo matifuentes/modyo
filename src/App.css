@@ -1,0 +1,14 @@
+body {
+  background-image: linear-gradient(to right, #8360c3, #2ebf91);
+  font-family: 'VT323', sans-serif;
+}
+
+.form-register-name__btn-start--purple {
+  background-color: rebeccapurple;
+  border-color: rebeccapurple;
+}
+
+.score {
+  background: rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
