@@ -17,11 +17,11 @@ Postulante: Matías Fuentes Mora.
 ## Frameworks y librerías
 - Bootstrap 5: 
 		https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css
-- GoogleFont:
+- GoogleFont: 
 		https://fonts.googleapis.com/css2?family=VT323&display=swap
-- React:
+- React: 
 		create-react-app <name-app>
-- React Card Flip
+- React Card Flip: 
 		npm install --save react-card-flip
-- Axios
+- Axios: 
 		npm install axios
